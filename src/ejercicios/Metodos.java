@@ -13,6 +13,6 @@ public class Metodos {
 		 
 		 		return palabra1 + palabra2;
 		
-		
+		 		
 	}
 }
