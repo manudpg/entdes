@@ -4,7 +4,7 @@ public class Metodos {
 
 	public static void main(String[] args) {
 		
-		System.out.println(caracter(97));
+		System.out.println(valorDecimal('B'));
 	}
 
 	
@@ -21,4 +21,14 @@ public class Metodos {
 		 
 		 return valorCaracter;
 	 }
+	 
+	 
+	 
+	 static int valorDecimal (char caracter) {
+		 
+		 int valor = caracter;
+		 
+		 return valor;
+	 }
 }
+
