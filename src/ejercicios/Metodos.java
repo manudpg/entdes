@@ -3,9 +3,8 @@ package ejercicios;
 public class Metodos {
 
 	public static void main(String[] args) {
-
-		System.out.println(concatenacion("hola"," que tal"));
 		
+		System.out.println(caracter(97));
 	}
 
 	
@@ -15,4 +14,11 @@ public class Metodos {
 		
 		 		
 	}
+	 
+	 static char caracter(int numero) {
+		 
+		 char valorCaracter = (char) numero;
+		 
+		 return valorCaracter;
+	 }
 }
