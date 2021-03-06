@@ -4,8 +4,6 @@ public class Metodos {
 
 	public static void main(String[] args) {
 
-		multiplos3Hasta(100);	
-
 	}
 
 
@@ -47,9 +45,7 @@ public class Metodos {
 
 			}
 		}
-
-
-
 	}
+	
 }
 
