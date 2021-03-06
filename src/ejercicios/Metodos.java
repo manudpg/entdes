@@ -29,8 +29,6 @@ public class Metodos {
 
 		return valor;
 	}
-
-
 	static void multiplos3Hasta(int numero) {
 
 
@@ -47,5 +45,17 @@ public class Metodos {
 		}
 	}
 	
+	static void cuentaAtras(int origen , int restador) {
+
+
+		for (int i = origen; i >=0; i -=restador) {
+
+
+			System.out.println(i);
+
+		}
+	}
+
+	 
 }
 
